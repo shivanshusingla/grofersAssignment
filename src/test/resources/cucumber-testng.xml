@@ -1,0 +1,7 @@
+<suite name="Test">
+  <test name="home">
+    <classes>
+      <class name="common.CucumberRunner"/>
+    </classes>
+  </test>
+</suite>
