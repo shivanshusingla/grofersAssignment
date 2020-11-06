@@ -14,6 +14,16 @@
         </configuration>
         <groupId>org.apache.maven.plugins</groupId>
       </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>${basedir}/src/test/resources/cucumber-testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+        <groupId>org.apache.maven.plugins</groupId>
+        <version>3.0.0-M1</version>
+      </plugin>
     </plugins>
   </build>
   <dependencies>
