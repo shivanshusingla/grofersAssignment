@@ -67,12 +67,8 @@ public class SendMail {
           + fileDataReader.getPropertyValue(Constants.MailConstants.MAIL_EXTENT_REPORT_PATH);
       String emailableReport = System.getProperty(Constants.USER_DIR) + File.separator
           + fileDataReader.getPropertyValue(Constants.MailConstants.MAIL_REPORT_ATTACHMENT_PATH);
-      File logFile = fileDataReader
-          .getLastModifiedFile(new File(System.getProperty(Constants.USER_DIR)
-              + File.separator + fileDataReader.getPropertyValue(Constants.LOGS_PATH)));
       addAttachment(multipart, extentReport);
       addAttachment(multipart, emailableReport);
-      addAttachment(multipart, logFile.getPath());
       message.setContent(multipart);
       Transport transport = session.getTransport("smtp");
       transport.connect(Constants.SMTP_HOST, from, password);
