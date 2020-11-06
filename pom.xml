@@ -48,6 +48,21 @@
       <groupId>io.rest-assured</groupId>
       <version>4.3.1</version>
     </dependency>
+    <dependency>
+      <artifactId>commons-email</artifactId>
+      <groupId>org.apache.commons</groupId>
+      <version>1.5</version>
+    </dependency>
+    <dependency>
+      <artifactId>poi-ooxml</artifactId>
+      <groupId>org.apache.poi</groupId>
+      <version>3.9</version>
+    </dependency>
+    <dependency>
+      <artifactId>extentreports</artifactId>
+      <groupId>com.relevantcodes</groupId>
+      <version>2.41.2</version>
+    </dependency>
   </dependencies>
   <groupId>org.example</groupId>
 

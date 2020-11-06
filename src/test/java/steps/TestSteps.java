@@ -5,7 +5,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class TestSteps {
+public class TestSteps extends TestBase {
 
   @Given("^User has the todo tasks$")
   public void getToDoApiResponse() {

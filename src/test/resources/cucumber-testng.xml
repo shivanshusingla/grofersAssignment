@@ -1,5 +1,8 @@
-<suite name="Test">
-  <test name="home">
+<suite name="Grofers Assignment">
+  <listeners>
+    <listener class-name="common.Listeners"/>
+  </listeners>
+  <test name="Grofers Assignment Test">
     <classes>
       <class name="common.CucumberRunner"/>
     </classes>
