@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Internet connection is fine...]]>
+    </line>
+    <line>
+      <![CDATA[<font style="color:green">Automation Execution started on Fri Nov 06 10:35:26 IST 2020 on Thread id:- 1</font></br>]]>
+    </line>
+    <line>
+      <![CDATA[<B>Test 'scenario' Started on 'Fri Nov 06 10:35:26 IST 2020'</B>]]>
+    </line>
+    <line>
+      <![CDATA[<B>Test 'scenario' Passed on '6/11/20 10:35 AM'</B>]]>
+    </line>
+  </reporter-output>
+  <suite name="Grofers Assignment" duration-ms="4063" started-at="2020-11-06T05:05:26Z" finished-at="2020-11-06T05:05:30Z">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="CucumberSuite.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:common.CucumberRunner@6b2fad11]" name="scenario" class="common.CucumberSuite"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test name="Grofers Assignment Test" duration-ms="4063" started-at="2020-11-06T05:05:26Z" finished-at="2020-11-06T05:05:30Z">
+      <class name="common.CucumberRunner">
+        <test-method status="PASS" signature="deleteLogs()[pri:0, instance:common.CucumberRunner@6b2fad11]" name="deleteLogs" is-config="true" duration-ms="21" started-at="2020-11-06T05:05:26Z" description="Delete 15 days old logs files" finished-at="2020-11-06T05:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLogs -->
+        <test-method status="PASS" signature="abs()[pri:0, instance:common.CucumberRunner@6b2fad11]" name="abs" is-config="true" duration-ms="186" started-at="2020-11-06T05:05:26Z" finished-at="2020-11-06T05:05:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abs -->
+        <test-method status="PASS" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:common.CucumberRunner@6b2fad11]" name="scenario" duration-ms="3643" started-at="2020-11-06T05:05:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-11-06T05:05:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["All the users of City Grofers complete more than half of their todo tasks."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Grofers Assignment"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<B>Test 'scenario' Started on 'Fri Nov 06 10:35:26 IST 2020'</B>]]>
+            </line>
+            <line>
+              <![CDATA[<B>Test 'scenario' Passed on '6/11/20 10:35 AM'</B>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="sendEMail()[pri:0, instance:common.CucumberRunner@6b2fad11]" name="sendEMail" is-config="true" duration-ms="563" started-at="2020-11-06T05:05:30Z" description="Sending Mail" finished-at="2020-11-06T05:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEMail -->
+      </class> <!-- common.CucumberRunner -->
+    </test> <!-- Grofers Assignment Test -->
+  </suite> <!-- Grofers Assignment -->
+</testng-results>
